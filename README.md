@@ -26,6 +26,6 @@ Add the deployed link here.
 ## Sections
 
 - Hero with call to action!
-- Services
+- Services!
 - Why us?
-- Contact
+- Contact!
