@@ -1,24 +1,18 @@
-# Lab 2 - Landing page
+# Redwood Tomato Nursery - Landing Page
 
-Create a web page for your/friends/relatives business (example: car-rent, cookies-shop, crypto-scam)
+A landing page for a tomato breeding nursery that offers starter seedlings, breeding kits, and grower consulting.
 
-> For a maximal grade, the website should be for a real client (your/friends/relatives business), otherwise -1-2 points
+## Live demo
 
-## Customer requirements
+Add the deployed link here.
 
-- Some form of navigation to sections (links, buttons)
-- Call to action
-- At least 4 sections ([see examples](https://webflow.com/blog/high-converting-landing-page))
-- Pleasant to the eyes
+## Screenshots
 
-## Dev requirements
+Add screenshots of the landing page here.
 
-- Use vanilla CSS and HTML (no frameworks)
-- Have a decent git history (no one commit)
-- The page should be deployed on a free hosting service (example: GitHub Pages, Vercel, Netlify)
-- Project repo should have a README with a short description of the landing page topic, screenshots, and a link to the live demo
+## Sections
 
-## Other requirements:
-
-- For potential maximal mark, a WIP version should be submitted during the class
-- Use index.html, reset.css
+- Hero with call to action
+- Services
+- Why us
+- Contact

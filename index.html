@@ -1,14 +1,182 @@
 <!doctype html>
-<html>
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>My landing page</title>
-    <!-- CHANGE THESE VALUES -->
+    <title>Redwood Tomato Nursery</title>
+    <meta
+      name="description"
+      content="Small-batch tomato breeding and starter plants for backyard growers."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=Space+Grotesk:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="reset.css" />
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <!-- ADD YOUR CODE HERE -->
+    <header class="hero" id="top">
+      <div class="hero-bg"></div>
+      <nav class="nav">
+        <a class="brand" href="#top">
+          <span class="brand-dot"></span>
+          Redwood Tomato Nursery
+        </a>
+        <div class="nav-links">
+          <a href="#services">Services</a>
+          <a href="#benefits">Why us</a>
+          <a href="#contact">Contact</a>
+        </div>
+        <a class="button primary" href="#contact">Book a visit</a>
+      </nav>
+
+      <section class="hero-content">
+        <div class="hero-copy">
+          <p class="eyebrow">Small-batch breeding, big flavor</p>
+          <h1>Breed tomatoes that thrive in your garden.</h1>
+          <p class="lead">
+            We cultivate resilient heritage lines and starter plants adapted for
+            cooler climates. From seed to harvest, we help you grow tomatoes
+            with character.
+          </p>
+          <div class="hero-actions">
+            <a class="button primary" href="#contact">Get starter pack</a>
+            <a class="button ghost" href="#services">Explore services</a>
+          </div>
+          <div class="hero-metrics">
+            <div>
+              <h3>28+</h3>
+              <p>unique breeding lines</p>
+            </div>
+            <div>
+              <h3>1200+</h3>
+              <p>local growers supported</p>
+            </div>
+            <div>
+              <h3>4.9/5</h3>
+              <p>community rating</p>
+            </div>
+          </div>
+        </div>
+        <div class="hero-art" aria-hidden="true">
+          <div class="tomato-card">
+            <span>RUSTIC CRIMSON</span>
+            <strong>Seedling Kit</strong>
+            <p>12-week starter pack</p>
+          </div>
+          <div class="tomato-orb"></div>
+          <div class="tomato-orb small"></div>
+          <div class="tomato-leaf"></div>
+        </div>
+      </section>
+    </header>
+
+    <main>
+      <section class="section" id="services">
+        <div class="section-header">
+          <p class="eyebrow">Services</p>
+          <h2>Everything you need to grow bold tomatoes.</h2>
+        </div>
+        <div class="card-grid">
+          <article class="card">
+            <h3>Starter Seedlings</h3>
+            <p>
+              Ready-to-plant seedlings raised indoors and hardened for the
+              local climate.
+            </p>
+            <a href="#contact">Reserve seedlings</a>
+          </article>
+          <article class="card">
+            <h3>Breeding Kits</h3>
+            <p>
+              Curated crosses with tasting notes, pollination tips, and harvest
+              schedules.
+            </p>
+            <a href="#contact">Order a kit</a>
+          </article>
+          <article class="card">
+            <h3>Grower Consulting</h3>
+            <p>
+              One-on-one support for soil plans, pruning, and greenhouse
+              management.
+            </p>
+            <a href="#contact">Talk with us</a>
+          </article>
+        </div>
+      </section>
+
+      <section class="section split" id="benefits">
+        <div>
+          <p class="eyebrow">Why Redwood</p>
+          <h2>Built for flavor, tested for resilience.</h2>
+          <p class="lead">
+            Our breeding program prioritizes taste, disease resistance, and
+            consistent harvests. Every batch is field-tested with local growers.
+          </p>
+          <div class="pill-list">
+            <span>Cool-climate hardy</span>
+            <span>Open-pollinated lines</span>
+            <span>Soil-first guidance</span>
+          </div>
+        </div>
+        <div class="benefit-grid">
+          <div class="benefit">
+            <h3>Adapted genetics</h3>
+            <p>Seed stock refined for short seasons and variable sunlight.</p>
+          </div>
+          <div class="benefit">
+            <h3>Flavor curation</h3>
+            <p>Each line has tasting notes and harvest timing guidance.</p>
+          </div>
+          <div class="benefit">
+            <h3>Grower network</h3>
+            <p>Join our community trials and share results.</p>
+          </div>
+          <div class="benefit">
+            <h3>Seasonal support</h3>
+            <p>Weekly check-ins during peak growth windows.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section contact" id="contact">
+        <div class="section-header">
+          <p class="eyebrow">Contact</p>
+          <h2>Plan your next harvest with us.</h2>
+        </div>
+        <div class="contact-grid">
+          <div class="contact-card">
+            <h3>Visit the nursery</h3>
+            <p>Open Tue-Sat, 09:00-17:00</p>
+            <p>22 Orchard Lane, Cluj-Napoca</p>
+            <p>+40 712 555 018</p>
+            <p>hello@redwoodtomato.ro</p>
+          </div>
+          <form class="contact-form">
+            <label>
+              Full name
+              <input type="text" name="name" placeholder="Your name" />
+            </label>
+            <label>
+              Email
+              <input type="email" name="email" placeholder="you@email.com" />
+            </label>
+            <label>
+              What do you want to grow?
+              <textarea name="message" rows="4" placeholder="Tell us about your plot."></textarea>
+            </label>
+            <button class="button primary" type="submit">Send request</button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p>Redwood Tomato Nursery. Breeding bold tomatoes since 2018.</p>
+      <a href="#top">Back to top</a>
+    </footer>
   </body>
 </html>
