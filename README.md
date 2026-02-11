@@ -4,7 +4,7 @@ A landing page for a tomato breeding nursery that offers the tastiest tomateos.
 
 ## Live demo
 
-Deploy link:
+Deploy link here: 
 https://filipobrijan.github.io/web-lab2/
 
 ## Screenshots
